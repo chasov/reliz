@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Reliz company</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/chart.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><i class="fa fa-chevron-left"></i>Reliz<i class="fa fa-chevron-right"></i></a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#contact">СВЯЗАТЬСЯ С НАМИ</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+<div id="hello">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 centered">
+                <h1>РЕЛИЗ</h1>
+                <h2>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ</h2>
+            </div><!-- /col-lg-8 -->
+        </div><!-- /row -->
+    </div> <!-- /container -->
+</div><!-- /hello -->
+<div id="green">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 centered">
+                <img src="assets/img/iphone.png" alt="">
+            </div>
+
+            <div class="col-lg-7 centered">
+                <h3>КТО МЫ</h3>
+                <p>Мы - молодая команда сплотившихся, амбициозных и талантливых специалистов. Мы стремимся к максимальному пониманию наших клиентов и стараемся дать то, что им нужно.
+                Каждое наше решение - уникально и не повторяет другое.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row centered mt grid">
+        <h3>ЧТО МЫ МОЖЕМ</h3>
+        <div class="mt"></div>
+        <div class="col-lg-4">
+            <a href="#"><img src="assets/img/01.jpg" alt=""></a>
+            <!--<span>ANDROID</span>-->
+        </div>
+        <div class="col-lg-4">
+            <a href="#"><img src="assets/img/02.jpg" alt=""></a>
+            <!--<span>&nbsp&nbsp&nbsp&nbsp&nbspiOS</span>-->
+        </div>
+        <div class="col-lg-4">
+            <a href="#"><img src="assets/img/03.jpg" alt=""></a>
+            <!--<span>&nbsp&nbsp&nbsp&nbsp&nbspWP</span>-->
+        </div>
+    </div>
+
+    <div class="row centered mt grid">
+        <div class="mt"></div>
+        <div class="col-lg-4">
+            <a href="#"><img src="assets/img/04.jpg" alt=""></a>
+            <!--<span>&nbsp&nbsp&nbsp&nbsp.Net</span>-->
+        </div>
+        <div class="col-lg-4">
+            <a href="#"><img src="assets/img/05.jpg" alt=""></a>
+            <!--<span>&nbsp&nbsp&nbsp&nbsp&nbspWEB</span>-->
+        </div>
+        <div class="col-lg-4">
+            <a href="#"><img src="assets/img/06.jpg" alt=""></a>
+            <!--<span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspIoT</span>-->
+        </div>
+    </div>
+
+    <div class="row mt centered">
+        <div class="col-lg-7 col-lg-offset-1 mt">
+            <p class="lead">Наши интересы, умения и таланты на этом не ограничиваются и работают только на наших клиентов :)</p>
+        </div>
+
+        <div class="col-lg-3 mt">
+            <p>
+                <button type="button" class="btn btn-theme btn-lg" href="#contact">Написать нам</button>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<div id="skills">
+    <div class="container">
+        <div class="row centered">
+            <h3>НАШ ОПЫТ</h3>
+            <div class="col-lg-3 mt">
+                <canvas id="javascript" height="130" width="130"></canvas>
+                <p>.Net</p>
+                <br>
+                <script>
+                    var doughnutData = [
+                        {
+                            value: 70,
+                            color: "#428bca"
+                        },
+                        {
+                            value: 30,
+                            color: "#3c3c3c"
+                        }
+                    ];
+                    var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
+                </script>
+            </div>
+            <div class="col-lg-3 mt">
+                <canvas id="bootstrap" height="130" width="130"></canvas>
+                <p>Java</p>
+                <br>
+                <script>
+                    var doughnutData = [
+                        {
+                            value: 90,
+                            color: "#428bca"
+                        },
+                        {
+                            value: 10,
+                            color: "#3c3c3c"
+                        }
+                    ];
+                    var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
+                </script>
+            </div>
+            <div class="col-lg-3 mt">
+                <canvas id="wordpress" height="130" width="130"></canvas>
+                <p>Mobile Development</p>
+                <br>
+                <script>
+                    var doughnutData = [
+                        {
+                            value: 65,
+                            color: "#428bca"
+                        },
+                        {
+                            value: 35,
+                            color: "#3c3c3c"
+                        }
+                    ];
+                    var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
+                </script>
+            </div>
+            <div class="col-lg-3 mt">
+                <canvas id="photoshop" height="130" width="130"></canvas>
+                <p>ERP</p>
+                <br>
+                <script>
+                    var doughnutData = [
+                        {
+                            value: 50,
+                            color: "#428bca"
+                        },
+                        {
+                            value: 50,
+                            color: "#3c3c3c"
+                        }
+                    ];
+                    var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
+                </script>
+            </div>
+        </div><!-- /row -->
+    </div><!-- /container -->
+</div><!-- /skills -->
+
+<section id="contact"></section>
+<div id="social">
+    <div class="container, row centered">
+        <div class="row centered">
+            <div class="col-lg-8 col-lg-offset-2">
+                 <div class="">
+                    <!--div class="">
+                        <h1 >CUSTOMER@RELIZ.DDNS.NET<i class=""></i></h1>
+                    </div-->
+                <div class="col-md-3, row centered">
+                    <h1 >CUSTOMER@RELIZ.DDNS.NET<i class=""></i></h1>
+                    <a href="mailto:customer@reliz.ddns.net"><i class="fa fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </div><!-- /container -->
+</div><!-- /social -->
+
+
+<!--	<div id="f">
+		<div class="container">
+			<div class="row">
+				<p>Crafted with <i class="fa fa-heart"></i> by BlackTie.co.</p>
+			</div>
+		</div>
+	</div>
+-->
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/bootstrap.js"></script>
+</body>
+</html>
